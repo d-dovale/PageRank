@@ -54,8 +54,6 @@ public:
     }
 
     void displayRanks() {
-        // Sorting and displaying ranks
-
         for (auto rank : ranks) {
             cout << rank.first << " " << fixed << setprecision(2) << rank.second << endl;
         }

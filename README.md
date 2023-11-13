@@ -2,9 +2,68 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repository contains an implementation of the PageRank algorithm, a widely known approach to ranking web pages in search engine results, using an adjacency list graph structure. The project is designed to demonstrate the efficiency of the PageRank algorithm when applied to a graph-based representation of a network, particularly the web.
+This repository contains an implementation of the PageRank algorithm for my COP3503 class at the University of Florida. The PageRank algorithm is a widely known approach to ranking web pages in search engine results, using an adjacency list graph structure. The project is designed to demonstrate the efficiency of the PageRank algorithm when applied to a graph-based representation of a network, particularly the web.
 
+### Key Features:
+* **Graph Representation**: The project uses an adjacency list representation for the graph, which is efficient for sparse graphs like web pages.
+* **PageRank Algorithm**: Implements the PageRank calculation, an iterative algorithm that assigns a numerical weighting to each element of a linked set of objects.
+* **Scalability**: Designed to handle a considerable number of web pages and links, making it suitable for large datasets.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+* ![C++]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Getting Started
+
+### Prerequisites
+
+In order to run the program through the python file you must install
+* GCC/G++ compiler (or any C++ compiler)
+* Basic knowledge of C++ command line operations
+
+### Installation and Compilation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/d-dovale/PageRank
+   ```
+3. Navigate to the project directory
+   ```sh
+   cd PageRank
+   ```
+4. To compile the project, use the following command in the terminal:
+   ```sh
+   g++ -o pagerank main.cpp graph.cpp
+   ```
+5. Execute the compiled program:
+   ```sh
+   ./pagerank
+   ```
+6. Input the websites that are linked (Example):
+    ```C++
+    7 2
+    google.com gmail.com
+    google.com maps.com
+    facebook.com ufl.edu
+    ufl.edu google.com
+    ufl.edu gmail.com
+    maps.com facebook.com
+    gmail.com maps.com
+    ```
+    
+    _This input represents a graph with 7 edges and requests 2 iterations of the PageRank algorithm._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contact
+
+Daniel Dovale - ddovale2004@gmail.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -25,6 +84,7 @@ This repository contains an implementation of the PageRank algorithm, a widely k
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[C++]: https://img.shields.io/badge/C++-3776AB?style=for-the-badge&logo=c++&logoColor=white
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
