@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/x_Coding Projects/PageRank/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\PageRank.dir\\src\\main.cpp.obj -c \"C:\\x_Coding Projects\\PageRank\\src\\main.cpp\"",
+  "file": "C:/x_Coding Projects/PageRank/src/main.cpp",
+  "output": "CMakeFiles/PageRank.dir/src/main.cpp.obj"
+}
+]
